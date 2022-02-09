@@ -1,3 +1,7 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
 .sunglasses{
     
 }
@@ -15,7 +19,7 @@
 input{
     
 }
-button{
+.button{
     background-color: orange;
     color: black;
     border: 2px solid #008CBA;
