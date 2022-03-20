@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: rgb(27, 27, 202)   ;
-  --secondary-color: #d5f715 ;
+  --primary-color: #396E94  ;
+  --secondary-color: lightblue ;
   --accent1-color: #ce8628;
-  --accent2-color: #768E52;
+  --accent2-color: #D4AC0D;
 
   /* change the values below to your chosen font(s) */
   --heading-font: 'Helvetica, Trebuchet MS, sans-serif';
@@ -35,17 +35,19 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color:lightblue;
 }
 img {
   display: block;
-  margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
+  
 }
 h2 {
   text-align: center;
+  font-family: var(--pragraph-font);
 }
 hr {
   height: 3px;
@@ -53,10 +55,11 @@ hr {
   background: var(--accent1-color);
 }
 header {
-  padding: 1em;
+    display: flex;
+    align-items:center;
   text-align: center;
   color: var(--paragraph-color-on-color);
-  background-color: var(--paragraph-background-color);
+  background-color: rgb(16, 216, 243);
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -177,9 +180,44 @@ nav a:hover {
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 32px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-right: 10%;
+  margin-left: 10%;
+
 }
+.button1 {
+    background-color: #396E94; 
+    color: white; 
+    border: 2px solid lightblue;
+  }
+  
+  .button1:hover {
+    background-color: rgb(40, 163, 204);
+    color: white;
+  }
+  
+  .button2 {
+    background-color: #396E94; 
+    color: white; 
+    border: 2px solid lightblue;
+  }
+  
+  .button2:hover {
+    background-color: #ce8628;
+    color: white;
+  }
+  
+  .button3 {
+    background-color: #396E94; 
+    color: white; 
+    border: 2px solid lightblue;
+  }
+  
+  .button3:hover {
+    background-color: #D4AC0D;
+    color: white;
+  }
