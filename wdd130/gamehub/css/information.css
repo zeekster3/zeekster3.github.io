@@ -39,6 +39,7 @@ body {
 }
 img {
   display: block;
+  margin-bottom:50px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -181,13 +182,12 @@ nav a:hover {
   border: none;
   color: white;
   padding: 32px 32px;
-  text-align: center;
+   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-right: 10%;
-  margin-left: 10%;
-
+  margin-left:25px;
+  margin-right:25px;
 }
 .button1 {
     background-color: #396E94; 
@@ -220,4 +220,7 @@ nav a:hover {
   .button3:hover {
     background-color: #D4AC0D;
     color: white;
+  }
+  .row {
+    display: flex;
   }
